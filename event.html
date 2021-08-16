@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <a href="http://www.google.com" onclick="alert('hello')">google</a>
+</body>
+</html>
+
+<!-- onclick -->
+<script>
+    function inform() {
+        alert("Hai anda mengklik saya")
+    }
+</script>
+<form>
+    <input type="button" name="test" value="Click me" onclick="inform()">
+</form> -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <form name="go">
+        <input type="radio" name="C1" onclick="document.bgColor='lightblue'">
+        <input type="radio" name="C1" onclick="document.bgColor='lightyellow'">
+        <input type="radio" name="C1" onclick="document.bgColor='lightgreen'">
+    </form>
+</body>
+</html>
+
+<!-- onload -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body onload="alert('Halaman ini telah selesai di loading')">
+    Welcome to my page
+</body>
+</html>
+
+<!-- onmouseover dan onmouseout -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <table>
+        <tr onmouseover="this.bgColor='lightblue'" onmouseout="this.bgColor='#efefef'">
+            <td>Baris pertama</td>
+        </tr>
+        <tr>
+            <td>Baris kedua</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!-- onunload -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body onunload="alert('Thank you. Please come back to this site and visit us soon, ok?')">
+    <h1>Welcome</h1>
+</body>
+</html>
+    
+   
